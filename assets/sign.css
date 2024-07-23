@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background: #fff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+}
+.logo{
+    margin-top: 20px;
+}
+.signin-container{
+    max-width: 350px;
+    border: 1px solid #d2d2d2;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 26px;
+    border-radius: 8px;
+    text-align: left;
+}
+.title{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.input-lable{
+    margin-top: 20px;
+}
+.signin-container input{
+    width: 100%;
+    height: 32px;
+    margin-top: 5px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    border: 1px solid #a0a0a0;
+    font-size: .9rem;
+}
+.signin-container input:focus{
+     outline: 3px solid #c2f2ff;
+}
+.signin-container button{
+    width: 100%;
+    height: 32px;
+    background-color: #ffd814;
+    margin: 15px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.signin-container button:hover{
+background: #ebc712;
+}
+.condition{
+    font-size: .8rem;
+}
+.signin-container span{
+    color: #0066c0;
+}
+.help{
+    font-size: 1rem;
+    margin: 18px 0;
+}
+.signin-container hr{
+    border: none;
+    height: 1px;
+    background: #d4d4d4;
+}
+.signin-container h4{
+    margin: 1rem 0;
+    font-size: .87rem;
+}
+.signin-business{
+    font-size: .9rem;
+}
+
+.signup-btn{
+    width: 350px;
+    height: 35px;
+    background: #fff;
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.signup-btn:hover{
+    background: #f1f1f1;
+}
+footer{
+     width: 100%;
+    height: auto;
+    max-height: 200px;
+    margin-top: 20px;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(to bottom, #f4f4f4, #fff);
+    border-radius: 2px solid #ededed;
+    font-size: 13px;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+footer div a{
+    text-decoration: none;
+    color: #0066c0;
+}
